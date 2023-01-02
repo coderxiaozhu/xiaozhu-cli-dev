@@ -1,6 +1,6 @@
 {
   "name": "@xiaozhu-cli-dev/core",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "xiaozhu-cli-dev core",
   "author": "coderxiaozhu <861353958@qq.com>",
   "homepage": "",
@@ -18,5 +18,10 @@
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "gitHead": "4c1f744309a1fb9b6b6524c01c09d275d0eea56f"
 }
