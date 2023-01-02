@@ -12,6 +12,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^6.1.0"
   }
