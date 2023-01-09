@@ -5,7 +5,7 @@
   "author": "coderxiaozhu <861353958@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "bin": {
     "xiaozhu-cli-dev": "bin/index.js"
   },
@@ -23,5 +23,11 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "gitHead": "4c1f744309a1fb9b6b6524c01c09d275d0eea56f"
+  "gitHead": "4c1f744309a1fb9b6b6524c01c09d275d0eea56f",
+  "dependencies": {
+    "@xiaozhu-cli-dev/utils": "file:../../utils/utils",
+    "@xiaozhu-cli-dev/log": "file:../../utils/log",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1"
+  }
 }
